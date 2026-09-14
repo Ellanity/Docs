@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Locki — Пользовательское соглашение</title>
+  <style>
+    :root { --paper:#fffdf8; --ink:#19542f; --mint:#95d5b2; --pale:#d8f3dc; --accent:#52b788; --muted:#557363; }
+    * { box-sizing:border-box; }
+    body { margin:0; padding:24px; color:var(--ink); background:var(--paper); font-family:"Montserrat Alternates","Segoe UI",Arial,sans-serif; line-height:1.65; overflow-wrap:anywhere; }
+    main { width:min(820px,100%); margin:0 auto; }
+    header { padding:34px 28px; border:2px solid var(--ink); border-radius:34px; background:var(--pale); text-align:center; }
+    h1 { margin:0 0 8px; font-size:clamp(1.9rem,5vw,3rem); line-height:1.15; }
+    h2 { margin:38px 0 10px; font-size:1.35rem; }
+    p,li { max-width:76ch; }
+    a { color:var(--ink); text-decoration-thickness:2px; text-underline-offset:3px; }
+    .meta,.notice { margin:18px 0; padding:16px 20px; border-radius:22px; background:#fff; box-shadow:0 6px 20px rgba(25,84,47,.10); }
+    .notice { border-left:8px solid var(--accent); }
+    .lang { margin-top:16px; }
+    .lang a { display:inline-block; margin:4px; padding:8px 14px; border:1px solid var(--ink); border-radius:999px; background:#fff; text-decoration:none; }
+    section { scroll-margin-top:20px; }
+    footer { margin-top:44px; padding:24px; border-radius:28px; background:var(--mint); text-align:center; }
+    @media (max-width:560px) { body{padding:12px} header{padding:28px 18px;border-radius:26px} h1{font-size:1.65rem} ul{padding-left:22px} }
+    @media print { body{padding:0} header,.meta,.notice,footer{box-shadow:none} .lang{display:none} }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Пользовательское соглашение Locki</h1>
+    <div>Terms of Service</div>
+    <nav class="lang" aria-label="Выбор языка"><a href="#ru">Русский</a><a href="#en" lang="en">English</a></nav>
+  </header>
+
+  <section id="ru">
+    <div class="meta"><strong>Дата вступления в силу:</strong> 14 сентября 2026 года<br><strong>Редакция:</strong> 2026-09-14-v2<br><strong>Приложение:</strong> Locki, пакет <code>com.Paplauski.Locki</code></div>
+    <p>Настоящее соглашение заключается между пользователем и <strong>Eldar Paplauski</strong>, действующим под обозначением <strong>Paplauski</strong>, Республика Беларусь («Разработчик»). Контакт: <a href="mailto:lab.paplauski@gmail.com">lab.paplauski@gmail.com</a>.</p>
+
+    <h2>1. Принятие соглашения</h2>
+    <p>Устанавливая, запуская или используя Locki, пользователь подтверждает, что прочитал и принимает соглашение и <a href="Locki.PrivacyPolicy.html">Политику конфиденциальности</a>. Если пользователь не согласен, он не должен использовать приложение. Лицо, не достигшее возраста самостоятельного заключения договора по применимому праву, использует Locki только с разрешения законного представителя.</p>
+
+    <h2>2. Назначение Locki</h2>
+    <p>Locki помогает ограничивать запуск выбранных пользователем Android-приложений с использованием NFC-метки, Usage Access, отображения поверх приложений и, по выбору пользователя, AccessibilityService. Пользователь самостоятельно выбирает правила, приложения и системные доступы.</p>
+    <div class="notice"><strong>Locki не является средством родительского контроля, медицинским, аварийным или сертифицированным средством информационной безопасности.</strong> Ограничения Android, настройки производителя, отзыв разрешений, безопасный режим, удаление приложения или особенности NFC могут ослабить или отключить блокировку.</div>
+
+    <h2>3. Лицензия и допустимое использование</h2>
+    <p>Разработчик предоставляет ограниченную, отзывную, неисключительную и непередаваемую лицензию для личного законного использования Locki на совместимом устройстве.</p>
+    <p>Запрещается обходить защиту магазина или подписки, вмешиваться в работу приложения, распространять изменённые копии, использовать Locki для нарушения прав других лиц либо предоставлять Разработчику вредоносные данные. Ограничения на исследование и обратную разработку действуют только в пределах, разрешённых обязательным законом.</p>
+
+    <h2>4. Устройство, разрешения и NFC</h2>
+    <p>Для основных функций требуется совместимое Android-устройство с NFC и предоставленные пользователем системные доступы. Пользователь отвечает за доступ к устройству и сохранность NFC-метки. Идентификатор некоторых меток может быть скопирован или эмулирован; Locki не гарантирует криптографическую аутентификацию метки.</p>
+    <p>Экстренная разблокировка предназначена для восстановления доступа, но её наличие и лимит не гарантируют доступность приложения в любой ситуации. Нельзя полагаться на Locki там, где задержка доступа может причинить вред.</p>
+
+    <h2>5. Аккаунт Google Play</h2>
+    <p>Версия 0.0.2 не создаёт отдельный аккаунт Locki. Когда подписка станет доступна, Google Play свяжет покупку с Google Play-аккаунтом, использованным при оплате. Locki не получает пароль аккаунта или полные реквизиты оплаты. Пользователь отвечает за безопасность своего Google-аккаунта и устройства.</p>
+    <p>Отдельный вход через Google или профиль Locki может быть добавлен только после обновления условий, политики конфиденциальности и способов удаления аккаунта.</p>
+
+    <h2>6. Подписки Google Play</h2>
+    <p>Этот раздел применяется только после появления подписки в приложении.</p>
+    <ul>
+      <li>До подтверждения покупки Locki показывает доступные функции, цену, валюту, расчётный период, наличие пробного периода и условия автоматического продления.</li>
+      <li>Если предложение включает бесплатный пробный период, после его окончания подписка становится платной и автоматически продлевается, если пользователь не отменит её до окончания пробного периода. Точные срок и цена показываются перед подтверждением.</li>
+      <li>Подписка оформляется и оплачивается через Google Play, автоматически продлевается на выбранный период, пока пользователь её не отменит, если на экране покупки не указано иное.</li>
+      <li>Списание выполняет Google Play по способу оплаты пользователя. Цена и налоги могут зависеть от страны и отображаются перед покупкой.</li>
+      <li>Платный доступ предоставляется только после подтверждения покупки Google Play. Ожидающий платёж не активирует подписку.</li>
+      <li>Подписка должна предоставлять заявленную продолжающуюся ценность в течение оплаченного периода. Точный перечень преимуществ указывается на экране предложения.</li>
+      <li>Управлять подпиской и отменить автопродление можно в <a href="https://play.google.com/store/account/subscriptions" rel="noopener noreferrer">центре подписок Google Play</a>. После отмены доступ обычно сохраняется до конца уже оплаченного периода.</li>
+      <li>Удаление приложения не отменяет подписку. Возвраты осуществляются Google Play и Разработчиком согласно правилам Google Play и обязательному законодательству страны пользователя.</li>
+      <li>После окончания, отмены с немедленным прекращением, возврата или отзыва покупки доступ к подписочным функциям прекращается. Локальные пользовательские правила не удаляются автоматически.</li>
+      <li>Восстановление покупки выполняется через Google Play для того же аккаунта и совместимого приложения.</li>
+    </ul>
+
+    <h2>7. Обновления и доступность</h2>
+    <p>Разработчик может исправлять ошибки, улучшать безопасность и изменять функции. Отдельные возможности зависят от версии Android, Google Play, производителя устройства и сторонних системных компонентов. Разработчик стремится поддерживать Locki, но не гарантирует непрерывную или безошибочную работу.</p>
+    <p>Существенное уменьшение уже оплаченных подписочных возможностей не применяется произвольно; пользователю предоставляются уведомление и средства защиты, предусмотренные Google Play и применимым законом.</p>
+
+    <h2>8. Интеллектуальная собственность</h2>
+    <p>Код, название, оформление, тексты, иллюстрации и иные материалы Locki принадлежат Разработчику или законным правообладателям. Соглашение не передаёт пользователю права собственности или права на товарные знаки.</p>
+
+    <h2>9. Ответственность</h2>
+    <p>Locki предоставляется в фактически доступном состоянии. В максимальной разрешённой законом степени Разработчик не отвечает за косвенные убытки, потерю времени или данных, вызванные несовместимостью устройства, действиями Google Play, отзывом разрешений, сторонними приложениями либо использованием Locki не по назначению.</p>
+    <p>Ничто в соглашении не исключает ответственность, которую нельзя исключить законом, и не ограничивает обязательные права потребителя. Если ограничение ответственности допустимо, совокупная ответственность не превышает сумму, фактически уплаченную за Locki за 12 месяцев до события, кроме случаев умысла, грубой неосторожности или иных обязательных исключений.</p>
+
+    <h2>10. Прекращение использования</h2>
+    <p>Пользователь может прекратить использование, удалить локальные данные и приложение. Подписку нужно отменить отдельно в Google Play. Разработчик может ограничить доступ при мошенничестве, нарушении соглашения или требованиях закона, сохраняя обязательные права пользователя.</p>
+
+    <h2>11. Изменения соглашения</h2>
+    <p>При существенных изменениях дата и номер редакции обновляются. Когда это требуется, Locki покажет новую редакцию и запросит отдельное принятие до продолжения использования изменённых функций. Добавление подписки, собственного аккаунта, сервера, рекламы или аналитики требует предварительного обновления соответствующих документов и раскрытий Google Play.</p>
+
+    <h2>12. Применимое право и споры</h2>
+    <p>Соглашение регулируется законодательством Республики Беларусь без ущерба обязательным правам потребителя по месту его проживания. До обращения в компетентный орган стороны стараются решить вопрос через <a href="mailto:lab.paplauski@gmail.com">lab.paplauski@gmail.com</a>. Иск рассматривается судом, определённым применимыми правилами подсудности.</p>
+  </section>
+
+  <section id="en" lang="en">
+    <h2>English summary</h2>
+    <div class="meta"><strong>Effective:</strong> September 14, 2026 · <strong>Version:</strong> 2026-09-14-v2</div>
+    <p>These Terms are between the user and Eldar Paplauski, operating as Paplauski, Republic of Belarus. By using Locki, the user accepts these Terms and the <a href="Locki.PrivacyPolicy.html">Privacy Policy</a>.</p>
+    <p>Locki helps users restrict selected Android apps with an NFC tag and user-granted Android access. It is not parental-control, medical, emergency, or certified security software. Android/OEM restrictions, revoked permissions, safe mode, removal, or NFC characteristics can weaken blocking. Tag identifiers may be cloned or emulated.</p>
+    <p>Version 0.0.2 creates no Locki account and offers no subscription. When subscriptions are introduced, Google Play will associate purchases with the purchaser’s Google Play account. Before purchase, Locki will clearly show benefits, localized price, billing period, trial terms, and automatic renewal. A free trial converts to a paid auto-renewing subscription unless canceled before the trial ends, as disclosed on the purchase screen. Pending purchases grant no entitlement. Subscription management and cancellation must be available through the <a href="https://play.google.com/store/account/subscriptions" rel="noopener noreferrer">Google Play subscription center</a>. Uninstalling Locki does not cancel a subscription.</p>
+    <p>Cancellation normally takes effect after the paid period; refunds and any immediate or prorated cancellation follow Google Play rules and mandatory local law. Subscription benefits end when entitlement expires or is revoked. Purchases may be restored for the same Google Play account.</p>
+    <p>Locki is provided as available, subject to mandatory consumer rights. Material changes will be disclosed, and renewed acceptance will be requested where required. Belarus law applies without limiting mandatory rights in the user’s place of residence.</p>
+  </section>
+
+  <footer><strong>Locki · Paplauski</strong><br><a href="Locki.PrivacyPolicy.html">Политика конфиденциальности / Privacy Policy</a><br><a href="mailto:lab.paplauski@gmail.com">lab.paplauski@gmail.com</a></footer>
+</main>
+</body>
+</html>
